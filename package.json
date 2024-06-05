@@ -1,6 +1,6 @@
 {
   "name": "acre-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "acre的常用组件库",
   "main": "index.ts",
   "scripts": {
