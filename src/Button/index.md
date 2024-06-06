@@ -7,7 +7,7 @@ group:
   path: /basic
 ---
 
-# Buttoon 按钮
+# Butoon 按钮
 
 > 常用的 button 按钮
 
