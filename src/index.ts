@@ -1,1 +1,1 @@
-export { default as AcreButton } from './Button';
+export { default as Button } from './Button';
