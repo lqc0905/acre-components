@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "acre的常用组件库",
   "private": false,
-  "main":"index.ts",
+  "main":"index.js",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
