@@ -1,9 +1,13 @@
 {
   "name": "acre-components",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "acre的常用组件库",
   "private": false,
   "main":"index.js",
+  "keywords": [
+    "react",
+    "components"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
