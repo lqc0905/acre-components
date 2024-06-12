@@ -18,6 +18,6 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [orange-team](https://github.com/username-boy/orange)
 ---
 
-## 快速网站成型工具
+## ACRE
 
 ##### 易用于多端开发
