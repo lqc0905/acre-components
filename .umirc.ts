@@ -9,6 +9,7 @@ export default defineConfig({
   // 打包发布上线的 文件包名字
   outputPath: 'docs-dist',
   // 配置导航条模式 // 默认纵向，
+  publicPath: './',
   mode: 'site',
   apiParser: {
     // 自定义属性过滤配置，也可以是一个函数，用法参考：https://github.com/styleguidist/react-docgen-typescript/#propfilter
@@ -36,20 +37,16 @@ export default defineConfig({
     },
     {
       title: '作者',
-      // children: [
-      //   {
-      //     title: 'CSDN',
-      //     path: 'https://blog.csdn.net/hhhhhhaa1?spm=1000.2115.3001.5343',
-      //   },
-      //   {
-      //     title: '掘金',
-      //     path: 'https://juejin.cn/user/125810085202243',
-      //   },
-      // ],
+      children: [
+        {
+          title: '掘金',
+          path: 'https://juejin.cn/user/1363844815394072',
+        },
+      ],
     },
     {
       title: 'GitHub',
-      //   path: 'https://github.com/yanyuehai/pear-element',
+      path: 'https://github.com/lqc0905/acre-components',
     },
   ],
 });

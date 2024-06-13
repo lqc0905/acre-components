@@ -12,23 +12,21 @@ export default function ButtonDemo1() {
     /*#__PURE__*/ React.createElement(
       Button,
       {
-        type: 'primary',
+        disabled: true,
       },
-      '\u57FA\u7840\u6309\u94AE',
+      'default',
     ),
     /*#__PURE__*/ React.createElement(
       Button,
       {
-        type: 'danger',
+        styles: {
+          background: '#F6F6F6',
+          color: '#D9D9D9',
+          border: '1px solid #D9D9D9',
+        },
+        disabled: true,
       },
-      '\u5371\u9669\u6309\u94AE',
-    ),
-    /*#__PURE__*/ React.createElement(
-      Button,
-      {
-        type: 'link',
-      },
-      '\u94FE\u63A5\u6309\u94AE',
+      '\u81EA\u5B9A\u4E49\u6837\u5F0F',
     ),
   );
 }
