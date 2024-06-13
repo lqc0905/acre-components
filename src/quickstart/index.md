@@ -9,7 +9,7 @@ group:
 
 # 快速上手
 
-本节将介绍如何在项目中使用 Element。
+本节将介绍如何在项目中使用 components。
 
 ## 引入 Element
 
@@ -23,10 +23,6 @@ export default function () {
   return (
     <div>
       <Button type="primary">基础按钮</Button>
-      <Button type="success">成功按钮</Button>
-      <Button type="danger">危险按钮</Button>
-      <Button type="warning">警告按钮</Button>
-      <Button type="info">信息按钮</Button>
     </div>
   );
 }
@@ -68,7 +64,7 @@ import {
   Tabs,
   TabPane,
   Tag,
-} from 'pear-element';
+} from 'acre-components';
 ```
 
 ## 开始使用
